@@ -37,99 +37,17 @@ public class MainActivity extends Activity {
 
 					if (inputEdtxt.getText().toString().matches("[0-9]+")
 							&& selectSpinner.getSelectedItem().toString()
-									.equals("DEC")) {
-
-						if (v == btnDec) {
-							BaseConvertor base = new BaseConvertor(
-									selectSpinner.getSelectedItem().toString(),
-									"DEC", inputEdtxt.getText().toString());
-							resulEdtxt.setText(base.getNumber());
-						}
-						if (v == btnBin) {
-							BaseConvertor base = new BaseConvertor(
-									selectSpinner.getSelectedItem().toString(),
-									"BIN", inputEdtxt.getText().toString());
-							resulEdtxt.setText(base.getNumber());
-						}
-						if (v == btnOct) {
-							BaseConvertor base = new BaseConvertor(
-									selectSpinner.getSelectedItem().toString(),
-									"OCT", inputEdtxt.getText().toString());
-							resulEdtxt.setText(base.getNumber());
-						}
-						if (v == btnHex) {
-							BaseConvertor base = new BaseConvertor(
-									selectSpinner.getSelectedItem().toString(),
-									"HEX", inputEdtxt.getText().toString());
-							resulEdtxt.setText(base.getNumber());
-						}
-
-					}
-
-					else if (inputEdtxt.getText().toString().matches("[0-1]+")
+									.equals("DEC")
+							||inputEdtxt.getText().toString()
+							                .matches("[0-1]+")
 							&& selectSpinner.getSelectedItem().toString()
-									.equals("BIN")) {
-
-						if (v == btnDec) {
-							BaseConvertor base = new BaseConvertor(
-									selectSpinner.getSelectedItem().toString(),
-									"DEC", inputEdtxt.getText().toString());
-							resulEdtxt.setText(base.getNumber());
-						}
-						if (v == btnBin) {
-							BaseConvertor base = new BaseConvertor(
-									selectSpinner.getSelectedItem().toString(),
-									"BIN", inputEdtxt.getText().toString());
-							resulEdtxt.setText(base.getNumber());
-						}
-						if (v == btnOct) {
-							BaseConvertor base = new BaseConvertor(
-									selectSpinner.getSelectedItem().toString(),
-									"OCT", inputEdtxt.getText().toString());
-							resulEdtxt.setText(base.getNumber());
-						}
-						if (v == btnHex) {
-							BaseConvertor base = new BaseConvertor(
-									selectSpinner.getSelectedItem().toString(),
-									"HEX", inputEdtxt.getText().toString());
-							resulEdtxt.setText(base.getNumber());
-						}
-
-					}
-
-					else if (inputEdtxt.getText().toString().matches("[0-7]+")
+									.equals("BIN")
+							||inputEdtxt.getText().toString()
+							                .matches("[0-7]+")
 							&& selectSpinner.getSelectedItem().toString()
-									.equals("OCT")) {
-
-						if (v == btnDec) {
-							BaseConvertor base = new BaseConvertor(
-									selectSpinner.getSelectedItem().toString(),
-									"DEC", inputEdtxt.getText().toString());
-							resulEdtxt.setText(base.getNumber());
-						}
-						if (v == btnBin) {
-							BaseConvertor base = new BaseConvertor(
-									selectSpinner.getSelectedItem().toString(),
-									"BIN", inputEdtxt.getText().toString());
-							resulEdtxt.setText(base.getNumber());
-						}
-						if (v == btnOct) {
-							BaseConvertor base = new BaseConvertor(
-									selectSpinner.getSelectedItem().toString(),
-									"OCT", inputEdtxt.getText().toString());
-							resulEdtxt.setText(base.getNumber());
-						}
-						if (v == btnHex) {
-							BaseConvertor base = new BaseConvertor(
-									selectSpinner.getSelectedItem().toString(),
-									"HEX", inputEdtxt.getText().toString());
-							resulEdtxt.setText(base.getNumber());
-						}
-
-					}
-
-					else if (inputEdtxt.getText().toString()
-							.matches("[a-f0-9]+")
+									.equals("OCT")
+							||inputEdtxt.getText().toString()
+							                .matches("[a-f0-9]+")
 							&& selectSpinner.getSelectedItem().toString()
 									.equals("HEX")) {
 
