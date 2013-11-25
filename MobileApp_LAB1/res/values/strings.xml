@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LAB1</string>
+    <string name="action_settings">Settings</string>
+    <string name="headString">Base Number Convertor</string>
+
+    <string-array name="baseString">
+        <item>DEC</item>
+        <item>BIN</item>
+        <item>OCT</item>
+        <item>HEX</item>
+    </string-array>
+    <string name="ResultTxt">Result is</string>
+    <string name="TxtBtnDec">DEC</string>
+    <string name="TxtBtnBin">BIN</string>
+    <string name="TxtBtnOct">OCT</string>
+    <string name="TxtBtnHex">HEX</string>
+    <string name="TxtTO">To</string>
+    <string name="inputTxt">Input number</string>
+    <string name="resultTxt">Result</string>
+
+</resources>
